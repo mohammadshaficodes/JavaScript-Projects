@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+}
+body { 
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/02/16/54/iceland-2111811_960_720.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-style: normal;
+    color : rgb(200, 221, 01);
+    align-items: center;
+   
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+
+
+.countdown-container {
+    display: flex;
+
+}
+
+.big-text {
+   font-weight: bold;
+   font-size: 3rem;
+   margin: 3rem;
+   line-height: 1;
+
+}
+
+.count-i {
+    text-align: center;
+}
